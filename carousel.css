@@ -190,7 +190,7 @@ p.second-slide {
 
 .marketing .col-lg-12 {
   margin-bottom: 30px;
-  height: 150px;
+  height: 100px;
   text-align: center;
 }
 .marketing h2 {
@@ -203,8 +203,7 @@ p.second-slide {
 
 .logo-small {
   text-align: center;
-  max-height: 130px;
-  padding-bottom: 0;
+  max-height: 90px;
 }
 
 
@@ -268,7 +267,19 @@ p.second-slide {
     max-height: 170px;
     max-width: 800px;
   }
+
+  .logo-small {
+    text-align: center;
+    max-height: 140px;
+  }
+  .marketing .col-lg-12 {
+    margin-bottom: 35px;
+    height: 150px;
+    text-align: center;
+  }
 }
+
+
 
 @media (min-width: 992px) {
   .featurette-heading {
